@@ -1,7 +1,6 @@
 # MCP OpenAI Server
-
-A Model Context Protocol (MCP) server that lets you seamlessly use OpenAI's models right from Claude.
 [![smithery badge](https://smithery.ai/badge/@mzxrai/mcp-openai)](https://smithery.ai/server/@mzxrai/mcp-openai)
+
 A Model Context Protocol (MCP) server that lets you seamlessly use OpenAI's models right from Claude.
 
 ## Features
@@ -22,7 +21,15 @@ A Model Context Protocol (MCP) server that lets you seamlessly use OpenAI's mode
 - [OpenAI API key](https://platform.openai.com/api-keys)
 
 ## Installation
+### Installing via Smithery
 
+To install MCP OpenAI Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@mzxrai/mcp-openai):
+
+```bash
+npx -y @smithery/cli install @mzxrai/mcp-openai --client claude
+```
+
+### Installing manually
 First, make sure you've got the [Claude Desktop app](https://claude.ai/download) installed and you've requested an [OpenAI API key](https://platform.openai.com/api-keys).
 
 Add this entry to your `claude_desktop_config.json` (on Mac, you'll find it at `~/Library/Application\ Support/Claude/claude_desktop_config.json`):
@@ -114,4 +121,4 @@ MIT
 
 ## Author
 
-[mzxrai](https://github.com/mzxrai) File to patch: 
+[mzxrai](https://github.com/mzxrai)
