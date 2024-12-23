@@ -1,6 +1,8 @@
 # MCP OpenAI Server
 
 A Model Context Protocol (MCP) server that lets you seamlessly use OpenAI's models right from Claude.
+[![smithery badge](https://smithery.ai/badge/@mzxrai/mcp-openai)](https://smithery.ai/server/@mzxrai/mcp-openai)
+A Model Context Protocol (MCP) server that lets you seamlessly use OpenAI's models right from Claude.
 
 ## Features
 
@@ -112,4 +114,4 @@ MIT
 
 ## Author
 
-[mzxrai](https://github.com/mzxrai) 
+[mzxrai](https://github.com/mzxrai) File to patch: 
